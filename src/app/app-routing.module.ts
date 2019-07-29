@@ -5,6 +5,7 @@ import { ContactPageComponent } from './contact-page/contact-page.component'
 import { CTInfoProjectPageComponent } from './projects/ctinfo-project-page/ctinfo-project-page.component'
 
 const routes: Routes = [
+  { path: '', pathMatch: 'full', redirectTo: 'home' },
   { path: 'home', component: HomePageComponent },
   { path: 'contact', component: ContactPageComponent },
   { path: 'projects/ct-info', component: CTInfoProjectPageComponent }
