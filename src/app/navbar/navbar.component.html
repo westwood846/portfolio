@@ -1,19 +1,21 @@
 <mat-toolbar color="primary">
-  <h1>Marco Brack</h1>
-  <a [routerLink]="['projects/ct-info']">CT Info</a>
-  <a [routerLink]="['projects/ct-editor']">CT Editor</a>
-  <a [routerLink]="['projects/aircare']">AirCare</a>
+  <a [routerLink]="['home']"><h1>Marco Brack</h1></a>
+
   <span class="divider"></span>
-  <a [routerLink]="['projects/open']">Open</a>
-  <a [routerLink]="['projects/usda']">USDA</a>
+  <a [routerLink]="['projects/ct-info']" class="nav-link">CT Info</a>
+  <a [routerLink]="['projects/ct-editor']" class="nav-link">CT Editor</a>
+  <a [routerLink]="['projects/aircare']" class="nav-link">AirCare</a>
   <span class="divider"></span>
-  <a [routerLink]="['projects/thue']">Thue</a>
-  <a [routerLink]="['projects/thue-website']">Thue Website</a>
+  <a [routerLink]="['projects/open']" class="nav-link">Open</a>
+  <a [routerLink]="['projects/usda']" class="nav-link">USDA</a>
   <span class="divider"></span>
-  <a [routerLink]="['projects/challenges']">Challenges</a>
+  <a [routerLink]="['projects/thue']" class="nav-link">Thue</a>
+  <a [routerLink]="['projects/thue-website']" class="nav-link">Thue Website</a>
+  <span class="divider"></span>
+  <a [routerLink]="['projects/challenges']" class="nav-link">Challenges</a>
   
   <div class="right">
-    <a [routerLink]="['contact']" class="cv">Contact</a>
-    <a href="https://westwood846.github.io/" target="_blank" class="cv" >My CV</a>
+    <a [routerLink]="['contact']" class="cv nav-link">Contact</a>
+    <a href="https://westwood846.github.io/" target="_blank" class="cv nav-link" >My CV</a>
   </div>
 </mat-toolbar>

@@ -10,6 +10,7 @@ import { ProjectComponent } from './project/project.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CTInfoProjectPageComponent } from './projects/ctinfo-project-page/ctinfo-project-page.component';
 import { PictureComponent } from './picture/picture.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { PictureComponent } from './picture/picture.component';
     ProjectComponent,
     NavbarComponent,
     CTInfoProjectPageComponent,
-    PictureComponent
+    PictureComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,

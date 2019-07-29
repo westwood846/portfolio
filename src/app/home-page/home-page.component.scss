@@ -1,0 +1,30 @@
+:host {
+  display: block;
+  width: 100%;
+  background-color: white;
+  border: 1px solid rgba(0,0,0,0);
+
+  .home-container {
+    display: block;
+    width: 210mm;
+    margin: 10mm auto;
+    margin-top: 20mm;
+  }
+
+  .hero {
+    font-size: 64px;
+    margin-bottom: 2rem;
+  }
+
+  .block-img {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .profile-picture {
+    width: 50mm;
+    float: right;
+    border-radius: 50%;
+    margin-left: 1rem;
+  }
+}
