@@ -1,5 +1,5 @@
 <mat-toolbar color="primary">
-  <h1>My Portfolio</h1>
+  <h1>Marco Brack</h1>
   <a [routerLink]="['projects/ct-info']">CT Info</a>
   <a [routerLink]="['projects/ct-editor']">CT Editor</a>
   <a [routerLink]="['projects/aircare']">AirCare</a>
@@ -11,6 +11,9 @@
   <a [routerLink]="['projects/thue-website']">Thue Website</a>
   <span class="divider"></span>
   <a [routerLink]="['projects/challenges']">Challenges</a>
-
-  <a [routerLink]="['projects/ct-info']" target="_blank" class="cv" >My CV</a>
+  
+  <div class="right">
+    <a [routerLink]="['contact']" class="cv">Contact</a>
+    <a href="https://westwood846.github.io/" target="_blank" class="cv" >My CV</a>
+  </div>
 </mat-toolbar>
