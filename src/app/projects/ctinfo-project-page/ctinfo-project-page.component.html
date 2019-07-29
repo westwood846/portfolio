@@ -4,8 +4,8 @@
 
   <h2>Description</h2>
   <p>A data collection server listens for HTTP requests which trigger various jobs. In production, the HTTP requests are fired periodically by CRON/curl. Care was taken to make it easy to add new jobs without much programming overhead. Jobs are generic Node.js scripts; existing jobs retrieve data from web APIs or run syscalls like <code>ping</code> to interact with the infrastructure. The collected data is processed and inserted into a MongoDB database.</p>
-  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum culpa qui, labore eveniet provident laudantium asperiores, harum et dolorem similique id voluptate? Quod voluptate modi magni nesciunt debitis, laborum totam!</p>
-  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum culpa qui, labore eveniet provident laudantium asperiores, harum et dolorem similique id voluptate? Quod voluptate modi magni nesciunt debitis, laborum totam!</p>
+  <p>An Express server renders and serves the frontend files. Pug templates are populated with the data from the database, which is retrieved at render-time.</p>
+  <p>The web interface / frontend has serveral pages. Central is a list of the devices, indicating their connectivity status and some key metrics for quick diagnosis. Here and throughout the project frequently used values like the IP addresses of the devices can be copied to to clipboard by clicking on them. The list of devices is a sortable DataTables table. Every entry leads to the detail page of the respective device, where all metrics and values are displayed. The page also links to the device in other systems, like its Slack notification channel or its settings page.</p>
 
   <h2>Technologies Used</h2>
   <ul>
