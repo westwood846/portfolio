@@ -9,13 +9,15 @@ import { AppComponent } from './app.component';
 import { ProjectComponent } from './project/project.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CTInfoProjectPageComponent } from './projects/ctinfo-project-page/ctinfo-project-page.component';
+import { PictureComponent } from './picture/picture.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProjectComponent,
     NavbarComponent,
-    CTInfoProjectPageComponent
+    CTInfoProjectPageComponent,
+    PictureComponent
   ],
   imports: [
     BrowserModule,
