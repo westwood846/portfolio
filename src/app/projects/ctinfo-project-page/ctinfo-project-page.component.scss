@@ -1,0 +1,20 @@
+.app-picture-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+
+  .picture-box-picture-container {
+    width: 90mm;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 2px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

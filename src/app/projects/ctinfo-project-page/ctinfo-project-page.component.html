@@ -1,1 +1,38 @@
-<p>ctinfo-project-page works!</p>
+<app-project>
+  <h1>CT Info</h1>
+  <p>A full stack web application built for <a href="https://greencitysolutions.de/" target="_blank">Green City Solutions</a>. It retrieves status information about the company's field hardware from various sources, accumulates them in a database, exposes the data through a RESTful API and displays it in an interactive web interface.</p>
+
+  <h2>Description</h2>
+  <p>A data collection server listens for HTTP requests which trigger various jobs. In production, the HTTP requests are fired periodically by CRON/curl. Care was taken to make it easy to add new jobs without much programming overhead. Jobs are generic Node.js scripts; existing jobs retrieve data from web APIs or run syscalls like ping to interact with the infrastructure. The collected data is processed and inserted into a MongoDB database.</p>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum culpa qui, labore eveniet provident laudantium asperiores, harum et dolorem similique id voluptate? Quod voluptate modi magni nesciunt debitis, laborum totam!</p>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum culpa qui, labore eveniet provident laudantium asperiores, harum et dolorem similique id voluptate? Quod voluptate modi magni nesciunt debitis, laborum totam!</p>
+
+  <h2>Technologies Used</h2>
+  <ul>
+    <li>CRON</li>
+    <li>MongoDB</li>
+    <li>Express</li>
+    <li><a href="https://pugjs.org/api/getting-started.html">Pug</a></li>
+    <li>jQuery</li>
+    <li><a href="http://google.com/">DataTables</a></li>
+  </ul>
+
+  <h2>Pictures</h2>
+  <div class="app-picture-box">
+    <a href="/assets/ct-info-1.png">
+      <div class="picture-box-picture-container">
+        <img src="/assets/ct-info-1.png" alt="CT Info Screenshot">
+      </div>
+    </a>
+    <a href="/assets/ct-info-3.png">
+      <div class="picture-box-picture-container">
+        <img src="/assets/ct-info-3.png" alt="CT Info Screenshot">
+      </div>
+    </a>
+    <a href="/assets/ct-info-2.png">
+      <div class="picture-box-picture-container">
+        <img src="/assets/ct-info-2.png" alt="CT Info Screenshot">
+      </div>
+    </a>
+  </div>
+</app-project>

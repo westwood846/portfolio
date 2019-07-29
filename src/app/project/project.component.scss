@@ -1,0 +1,14 @@
+@import '~@angular/material/theming';
+@include mat-core();
+
+:host {
+  display: block;
+  width: 210mm;
+  min-height: 297mm;
+  padding: 10mm;
+  margin: 10mm auto;
+  border: 1px #d3d3d3 solid;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
