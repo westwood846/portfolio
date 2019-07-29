@@ -11,6 +11,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { CTInfoProjectPageComponent } from './projects/ctinfo-project-page/ctinfo-project-page.component';
 import { PictureComponent } from './picture/picture.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { ContactPageComponent } from './contact-page/contact-page.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HomePageComponent } from './home-page/home-page.component';
     NavbarComponent,
     CTInfoProjectPageComponent,
     PictureComponent,
-    HomePageComponent
+    HomePageComponent,
+    ContactPageComponent
   ],
   imports: [
     BrowserModule,

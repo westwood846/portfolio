@@ -23,7 +23,7 @@ $app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
 // that you are using.
 @include angular-material-theme($app-theme);
 
-body {
+body, html {
   width: 100%;
   height: 100%;
   margin: 0;
